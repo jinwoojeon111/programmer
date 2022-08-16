@@ -22,7 +22,6 @@ def solution(begin, target, words):
                 visited[word] = True
                 queue.append((word,step+1))
     
-    print(answer)
     return 0
 
 solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
